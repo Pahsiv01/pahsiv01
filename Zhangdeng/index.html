@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!-- © 2025 Asorn (https://asorn.cn). Designed and developed by Asorn. All rights reserved. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asorn - Product Designer</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg" />
+</head>
+
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head" id="headscrollbg">
+        <div class="main">
+            <div class="main-left">
+                <a href="./index.html" class="logo"><img src="./assets/public/logo_graph (2).svg"></a>
+                <div class="tag tag-cooperate" onclick="window.location.href='./about.html'">
+                    <div class="breath-dot"></div>Contact
+                </div>
+            </div>
+            <div class="menu" id="main-menu">
+                <li class="magical btn nav" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+                <li class="magical btn" onclick="window.location.href='./tool.html'">工作经历</li>
+                <li class="magical btn" onclick="window.location.href='./book.html'">阅读记录</li>
+                <li class="magical btn" onclick="window.location.href='./about.html'">关于我</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn menu-expand-btn" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content" id="menu-panel-content"></div>
+                <div class="menu-close-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5858 12L4.29291 18.2929L5.70712 19.7071L12 13.4142L18.2929 19.7071L19.7071 18.2929L13.4142 12L19.7071 5.70712L18.2929 4.29291L12 10.5858L5.70712 4.29291L4.29291 5.70712L10.5858 12Z"
+                            fill="#E8E8F6" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index">
+        <div class="hello">
+            <div class="hello-left">
+                <div class="title">
+                    <div class="title-hi">你好，我是</div>
+                    <a class="title-name text-effect">张登</a>
+                </div>
+                <div class="hello-introduce">
+                    <span>UI/UX设计师 </span>西北农林科技大学（985）艺术设计硕士在读，长期深耕 UI/UX 设计领域，在B端和C端产品设计中，对用户操作逻辑与体验优化形成了深入理解；可熟练运用 Figma、AI、AE、PS 等设计工具及 AIGC 辅助工具，独立完成 “需求沟通 - 原型设计 - 视觉输出 - 测试落地” 全流程工作。系统学习设计心理学、用户研究、用户体验设计等核心课程，兼具扎实理论基础与前沿设计视野；
+擅长对接跨专业团队，明确切图规则、同步设计进度、协调开发修正界面细节
+                </div>
+                <div class="hello-actions">
+                    
+                </div>
+            </div>
+            <div class="hello-right">
+                <div class="eyes-container">
+                    <div class="eye eye-pic-one">
+                        <div class="pupil"></div>
+                    </div>
+                    <div class="eye eye-pic-two">
+                        <div class="pupil"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="power-list-container load-pro">
+                <div class="power-list">
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/ai.svg')"></div>
+                            <div class="title">AIGC工具</div>
+                        </div>
+                        <span class="power-separator"></span>
+                    </div>
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/tob.svg')"></div>
+                            <div class="title">交互设计</div>
+                        </div>
+                        <span class="power-separator"></span>
+                    </div>
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/web.svg')"></div>
+                            <div class="title">B端设计</div>
+                        </div>
+                        <span class="power-separator"></span>
+                    </div>
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/app.svg')"></div>
+                            <div class="title">APP设计</div>
+                        </div>
+                        <span class="power-separator"></span>
+                    </div>
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/assets.svg')"></div>
+                            <div class="title">网页设计</div>
+                        </div>
+                        <span class="power-separator"></span>
+                    </div>
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/code.svg')"></div>
+                            <div class="title">B2B设计</div>
+                        </div>
+                        <span class="power-separator"></span>
+                    </div>
+                    <div class="power-card load-item">
+                        <div class="power-container">
+                            <div class="card-img" style="background-image: url('./assets/index/interactive.svg')"></div>
+                            <div class="title">小程序设计</div>
+                        </div>
+                    </div>
+                    <div class="power-card sticky-item" id="sticky-item">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="link-list load-pro">
+                <div class="magical link-card">
+                    <a href=https://www.notion.so/Portfolio-2026-Zhangdeng-349024d0bd208056b131c1aef2bf6d41?source=copy_link target="_blank">
+                        <img src="./assets/index/yuque.png" alt="">
+                        <div class="info">
+                            <div class="info-title">APP 设计</div>
+                            <div class="info-desc">APP整套风格界面及交互设计</div>
+                        </div>
+                        <div class="icon icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path
+                                    d="M10.55 7.58332H1.16663V6.41665H10.55L7.75415 3.62082L8.5791 2.79587L12.1645 6.3813C12.5062 6.72299 12.5062 7.27701 12.1645 7.61873L8.5791 11.2042L7.75415 10.3792L10.55 7.58332Z"
+                                    fill="#B3B3C1"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical link-card">
+                    <a href=https://www.notion.so/Portfolio-2026-Zhangdeng-349024d0bd208056b131c1aef2bf6d41?source=copy_link target="_blank">
+                        <img src="./assets/index/github.png" alt="">
+                        <div class="info">
+                            <div class="info-title">小程序设计</div>
+                            <div class="info-desc">小程序视觉体系与交互流程设计</div>
+                        </div>
+                        <div class="icon icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path
+                                    d="M10.55 7.58332H1.16663V6.41665H10.55L7.75415 3.62082L8.5791 2.79587L12.1645 6.3813C12.5062 6.72299 12.5062 7.27701 12.1645 7.61873L8.5791 11.2042L7.75415 10.3792L10.55 7.58332Z"
+                                    fill="#B3B3C1"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical link-card">
+                    <a href=https://www.notion.so/Portfolio-2026-Zhangdeng-349024d0bd208056b131c1aef2bf6d41?source=copy_link target="_blank">
+                        <img src="./assets/index/figma.png" alt="">
+                        <div class="info">
+                            <div class="info-title">B端设计</div>
+                            <div class="info-desc">企业级B端产品界面及流程设计</div>
+                        </div>
+                        <div class="icon icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path
+                                    d="M10.55 7.58332H1.16663V6.41665H10.55L7.75415 3.62082L8.5791 2.79587L12.1645 6.3813C12.5062 6.72299 12.5062 7.27701 12.1645 7.61873L8.5791 11.2042L7.75415 10.3792L10.55 7.58332Z"
+                                    fill="#B3B3C1"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical link-card">
+                    <a href=https://www.notion.so/Portfolio-2026-Zhangdeng-349024d0bd208056b131c1aef2bf6d41?source=copy_link target="_blank">
+                        <img src="./assets/index/xiaohongshu.png" alt="">
+                        <div class="info">
+                            <div class="info-title">AIGC 运用</div>
+                            <div class="info-desc">活动运营图、H5、AIGC 板块</div>
+                        </div>
+                        <div class="icon icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path
+                                    d="M10.55 7.58332H1.16663V6.41665H10.55L7.75415 3.62082L8.5791 2.79587L12.1645 6.3813C12.5062 6.72299 12.5062 7.27701 12.1645 7.61873L8.5791 11.2042L7.75415 10.3792L10.55 7.58332Z"
+                                    fill="#B3B3C1"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical link-card">
+                    <a href="javascript:void(0)">
+                        <img src="./assets/index/gongzhonghao.png" alt="">
+                        <div class="info">
+                            <div class="info-title">动效设计</div>
+                            <div class="info-desc">各类界面及宣传类动效设计</div>
+                        </div>
+                        <div class="icon icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path
+                                    d="M10.55 7.58332H1.16663V6.41665H10.55L7.75415 3.62082L8.5791 2.79587L12.1645 6.3813C12.5062 6.72299 12.5062 7.27701 12.1645 7.61873L8.5791 11.2042L7.75415 10.3792L10.55 7.58332Z"
+                                    fill="#B3B3C1"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical link-card">
+                    <a href=https://www.notion.so/Portfolio-2026-Zhangdeng-349024d0bd208056b131c1aef2bf6d41?source=copy_linktarget="_blank">
+                        <img src="./assets/index/dribbble.png" alt="">
+                        <div class="info">
+                            <div class="info-title">3D 设计</div>
+                            <div class="info-desc">3D模型、场景及相关素材设计</div>
+                        </div>
+                        <div class="icon icon-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path
+                                    d="M10.55 7.58332H1.16663V6.41665H10.55L7.75415 3.62082L8.5791 2.79587L12.1645 6.3813C12.5062 6.72299 12.5062 7.27701 12.1645 7.61873L8.5791 11.2042L7.75415 10.3792L10.55 7.58332Z"
+                                    fill="#B3B3C1"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="copyright">
+                <div>© 2026 Design by <a href="https://asorn.cn/" target="_blank">Zhangdeng</a></div>
+                <span>|</span>
+                <div class="fillings">
+                    <a href="https://asorn.cn/" target="_blank">UI/UX设计</a>
+                </div>
+            </div>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank"></a>
+                <a href="https://larkmap.com/" target="_blank">同样的问题，这次狼狈，下次从容 </a>
+                <a href="https://qingicon.com/" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+    <div class="widget-top"></div>
+</body>
+
+<script>
+    const stickyItem = document.querySelector('#sticky-item');
+    const powerList = document.querySelector('.power-list');
+    function checkScroll() {
+        const isAtRight = powerList.scrollLeft + powerList.clientWidth >= powerList.scrollWidth;
+        if (isAtRight) {
+            stickyItem.style.opacity = 0;
+        } else {
+            stickyItem.style.opacity = 1;
+        }
+    }
+    function checkVisibility() {
+        if (powerList.scrollWidth > powerList.clientWidth) {
+            stickyItem.style.opacity = 1;
+        } else {
+            stickyItem.style.opacity = 0;
+        }
+    }
+    powerList.addEventListener('scroll', checkScroll);
+    window.addEventListener('resize', () => {
+        checkVisibility();
+        checkScroll();
+    });
+    checkVisibility();
+    checkScroll();
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+
+</html>
